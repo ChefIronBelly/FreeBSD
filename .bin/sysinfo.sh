@@ -1,0 +1,72 @@
+#!/usr/local/bin/bash
+#                           ██            ████
+#                          ░░            ░██░
+#   ██████  ██   ██  ██████ ██ ███████  ██████  ██████
+#  ██░░░░  ░░██ ██  ██░░░░ ░██░░██░░░██░░░██░  ██░░░░██
+# ░░█████   ░░███  ░░█████ ░██ ░██  ░██  ░██  ░██   ░██
+#  ░░░░░██   ░██    ░░░░░██░██ ░██  ░██  ░██  ░██   ░██
+#  ██████    ██     ██████ ░██ ███  ░██  ░██  ░░██████
+# ░░░░░░   ██      ░░░░░░  ░░ ░░░   ░░   ░░    ░░░░░░
+#        ░░
+#
+#  ▓▓▓▓▓▓▓▓▓▓
+# ░▓ author ▓ xero <x@xero.style>
+# ░▓ code   ▓ https://code.x-e.ro/dotfiles
+# ░▓ mirror ▓ https://git.io/.files
+# ░▓▓▓▓▓▓▓▓▓▓
+#  ░░░░░░░░░░
+#
+#█▓▒░ progress bar
+draw() {
+  FULL=━
+  EMPTY=┄
+  out=
+  perc=$1
+  size=$2
+  inc=$(( perc * size / 100 ))
+  color=34
+  color2=31
+  for v in $(seq 0 $(( size - 1 ))); do
+    [ "$v" -le "$inc" ] && out="${out}\e[1;${color}m${FULL}" || out="${out}\e[0;${color2}m${EMPTY}"
+  done
+  printf "%b" "$out"
+}
+
+#█▓▒░ populate vals
+i=1
+c=$(printf "\e[0m\e[31m░▒")
+while [ $i -le 6 ];do
+  c=${c}$(printf "\e[%dm\e[%dm█▓▒░" "$((i+41))" "$((i+30))")
+  i=$((i+1))
+done
+COLORBAR=${c}$(printf "\e[37m█\e[0m▒░")
+HOST=$(hostname)
+DISTRO=$(grep PRETTY </etc/os-release | sed 's/PRETTY_NAME=//;s/"//g;s/GNU.Linux / /') # TAKE THAT RMS ;P
+KERNEL=$(uname -r)
+UPTIME=$(uptime -p | cut -d " " -f2-)
+[[ ${#UPTIME} -ge 22 ]] && UPTIME=$(echo "$UPTIME" | sed 's/ weeks/wks/;s/ hours/hrs/;s/ minutes/mins/')
+c_lvl=$(printf "%.0f" "$(grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage}')")
+CPU=$(printf "\e[1;95m%-4s\e[0;36m%-5s%-25s \n" "cpu" "$c_lvl%" "$(draw "$c_lvl" 16)")
+ram_lvl=$(free | awk '/Mem:/ {print int($3/$2 * 100.0)}')
+RAM=$(printf "\e[1;95m%-4s\e[0;36m%-5s%-25s \n" "ram" "$ram_lvl%" "$(draw "$ram_lvl" 16)")
+disk_lvl=$(df -h | grep '/$' | tr -s ' ' | cut -d ' ' -f5 | sed 's/%//')
+DISK=$(printf "\e[1;95m%-4s\e[0;36m%-5s%-25s \n" "disk " "$disk_lvl%" "$(draw "$disk_lvl" 16)")
+PKGS=$(apt list --installed 2>/dev/null | grep -c 'installed')
+BINS=0
+IFS=':' read -r -a PATHS <<<"$PATH"
+mapfile -t DIRS <<<"$(printf "%s\n" "${PATHS[@]}" | sort -u)"
+for d in "${DIRS[@]}"; do
+  [ -d "$d" ] && { new=$(find "$d" -maxdepth 1 -type f -executable -print | wc -l); BINS=$(( BINS+new )); }
+done
+
+#█▓▒░ greets
+printf "\n \e[0m   hello \e[36m%s\033[0m, i'm \e[34m%s\n" "$USER" "$HOST"
+printf "\e[0m\n  %s\e[0m\n\n" "$COLORBAR"
+
+#█▓▒░ environment
+printf " \e[1;33m distro \e[0m%s\n" "${DISTRO,,}"
+printf " \e[1;33m kernel \e[0m%s\n" "$KERNEL"
+printf " \e[1;33m uptime \e[0m%s\n" "$UPTIME"
+printf " \e[1;33m   pkgs \e[0m%s%*s\e[1;33mbins \e[0m%s\n" "$PKGS" 8 " " "$BINS"
+printf "     %s\n     %s\n    %s\e[0m\n" "$CPU" "$RAM" "$DISK"
+
