@@ -7,6 +7,4 @@ fc #D8DEE9
 mask1 mod4
 altmask shift
 bg #2E3440
-#fn -*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-1
-#fn DejaVuSansMono:pixelsize=16
 app xclock/XClock -s

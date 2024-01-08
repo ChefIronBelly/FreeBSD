@@ -9,14 +9,10 @@ Xcursor.theme: Adwaita
 Xcursor.size: 24
 
 *.scrollBar:                false
+*.font:     xft:DejaVu Sans Mono:size=10:antialias=true
+*.boldFont: xft:DejaVu Sans Mono:bold:size=10:antialias=true
 
-!*.font: 	-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*
-!*.boldFont: 	-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*
-
-!*.font:         DejaVuSansMono-12
-!*.boldFont:     DejaVuSansMono-12
-
-*font:	*-fixed-*-*-*-18-*
+!*font:	*-fixed-*-*-*-18-*
  
 ! color scheme
 !#include </home/chef/.cache/wal/colors.Xresources>
