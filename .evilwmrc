@@ -7,4 +7,3 @@ fc #D8DEE9
 mask1 mod4
 altmask shift
 bg #2E3440
-app xclock/XClock -s

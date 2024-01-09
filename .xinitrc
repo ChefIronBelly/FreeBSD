@@ -20,4 +20,4 @@ xsetroot -solid "$(xrdb -query | awk '/\*.color8/ {print $2}')"
 #exec sowm
 
 evilwm &
-exec xclock -digital -bg '#2E3440' -fg '#D8DEE9' -update 60 -chime -padding 2 -g -0+0
+exec xclock -digital -bg '#2E3440' -fg '#D8DEE9' -update 60 -twelve -chime -padding 2 -g -0+0
