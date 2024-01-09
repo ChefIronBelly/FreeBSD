@@ -15,11 +15,9 @@ export C7=8FBCBB
 
 #export FONT="-*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-*"
 #export ICOFONT="-*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-*"
-export FONT="'Menlo-10'"
-DMENU_FN="-fn 'Menlo-10'"
+export FONT="'DejaVuSansMono-10"
+DMENU_FN="-fn 'DejaVuSansMono-10'"
 
-#DMENU_FN="-fn -*-ohsnap.icons-medium-r-*-*-12-*-*-*-*-*-*-*"
-DMENU_FN="-fn 'menlo-10'"
 DMENU_NB="-nb #2E3440"
 DMENU_NF="-nf #D8DEE9"
 DMENU_SB="-sb #81A1C1"
