@@ -114,7 +114,7 @@ print-shell
 print-term
 #printf "\n"
 print-font
-colors='nord'
+colors='illumination by bud' # https://github.com/dylanaraps/bin
 printf "\e[34mCOLORS: \e[37m   $colors$rst\n"
 #printf "\n"
 print-disk
