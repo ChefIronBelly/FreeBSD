@@ -16,7 +16,7 @@ const char* volup[]   = {"amixer", "sset", "Master", "5%+",         0};
 const char* volmute[] = {"amixer", "sset", "Master", "toggle",      0};
 const char* colors[]  = {"wal", "-i /home/chef/Pictures/Wallpapers", 0};
 const char* surfcmd[] = {"firefox", "https://news.google.com", 0};
-const char* editcmd[] = {"geany", 0};
+const char* editcmd[] = {"gedit", 0};
 const char* somacmd[] = {"dmenu_soma.sh", 0};
 
 static struct key keys[] = {
