@@ -13,5 +13,14 @@ Xcursor.size: 24
 *.font:         xft:LiberationMono-Regular:size=10:antialias=true
 *.boldFont: xft:LiberationSerif-Bold:bold:size=10:antialias=true
 
+!st.font:         JetBrainsMono Nerd Font:style:medium:pixelsize=13
+st.font:          LiberationMono-Regular:size=10
+
+! window padding
+st.borderpx: 10
+
+!- 0.1 to 0.9 = transparency
+!st.alpha: 1.0
+
 ! color scheme
 #include </home/chef/.cache/wal/colors.Xresources>

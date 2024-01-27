@@ -9,7 +9,7 @@ static int gap = 16;	/* gap around windows */
 
 
 const char* menu[]    = {"dmenu_run",      0};
-const char* term[]    = {"urxvt",          0};
+const char* term[]    = {"st",             0};
 const char* scrot[]   = {"scr",            0};
 const char* voldown[] = {"amixer", "sset", "Master", "5%-",         0};
 const char* volup[]   = {"amixer", "sset", "Master", "5%+",         0};

@@ -1,0 +1,21 @@
+set $wallpaper /home/chef/Pictures/Wallpapers/2769351.jpg
+
+set $background #101215
+set $foreground #c6cedd
+
+set $color0 #101215
+set $color1 #4A5562
+set $color2 #596572
+set $color3 #3A5D8B
+set $color4 #4F6D98
+set $color5 #7589A5
+set $color6 #8C9DB5
+set $color7 #c6cedd
+set $color8 #8a909a
+set $color9 #4A5562
+set $color10 #596572
+set $color11 #3A5D8B
+set $color12 #4F6D98
+set $color13 #7589A5
+set $color14 #8C9DB5
+set $color15 #c6cedd

@@ -1,22 +1,22 @@
 #!/bin/sh
 # ~/.wmrc
 
-export FG=D8DEE9
-export BG=2E3440
+#export FG=D8DEE9
+#export BG=2E3440
 
-export C0=2E3440
-export C1=3B4252
-export C2=434C5E
-export C3=4C566A
-export C4=D8DEE9
-export C5=E5E9F0
-export C6=ECEFF4
-export C7=8FBCBB
+#export C0=2E3440
+#export C1=3B4252
+#export C2=434C5E
+#export C3=4C566A
+#export C4=D8DEE9
+#export C5=E5E9F0
+#export C6=ECEFF4
+#export C7=8FBCBB
 
 #export FONT="-*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-*"
 #export ICOFONT="-*-ohsnap.icons-medium-r-*-*-14-*-*-*-*-*-*-*"
-export FONT="'DejaVuSansMono-10"
-DMENU_FN="-fn 'DejaVuSansMono-10'"
+#export FONT="'LiberationMono-Regular:size=10'"
+DMENU_FN="-fn LiberationMono-Regular:size=10"
 
 DMENU_NB="-nb #2E3440"
 DMENU_NF="-nf #D8DEE9"

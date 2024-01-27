@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chef/Pictures/Wallpapers/2769447.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#073758",
+        "foreground": "#b2d8ea",
+        "cursor": "#b2d8ea"
+    },
+    "colors": {
+        "color0": "#073758",
+        "color1": "#3F7EA1",
+        "color2": "#427D9D",
+        "color3": "#4C8CB0",
+        "color4": "#5E99B5",
+        "color5": "#5FA5CA",
+        "color6": "#66AED3",
+        "color7": "#b2d8ea",
+        "color8": "#7c97a3",
+        "color9": "#3F7EA1",
+        "color10": "#427D9D",
+        "color11": "#4C8CB0",
+        "color12": "#5E99B5",
+        "color13": "#5FA5CA",
+        "color14": "#66AED3",
+        "color15": "#b2d8ea"
+    }
+}
