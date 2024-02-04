@@ -1,7 +1,8 @@
 #!/bin/sh
 # play somaFM radio streams using dmenu and mpg123.
 
-. $HOME/.wmrc
+#. $HOME/.wmrc
+. $HOME/.cache/wal/colors.Xresources
 
 selection="";
 

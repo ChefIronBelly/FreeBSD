@@ -20,7 +20,7 @@ st.font:          LiberationMono-Regular:size=10
 st.borderpx: 10
 
 !- 0.1 to 0.9 = transparency
-!st.alpha: 1.0
+st.alpha: 0.5
 
 ! color scheme
 #include </home/chef/.cache/wal/colors.Xresources>
