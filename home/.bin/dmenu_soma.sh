@@ -2,7 +2,7 @@
 # play somaFM radio streams using dmenu and mpg123.
 
 #. $HOME/.wmrc
-. $HOME/.cache/wal/colors.Xresources
+#. $HOME/.cache/wal/colors.Xresources
 
 selection="";
 

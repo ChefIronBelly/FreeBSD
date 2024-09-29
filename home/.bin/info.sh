@@ -76,8 +76,8 @@ print-wm() {
            
 print-font() {
     fontstr=$(xrdb -query 2>/dev/null | grep '*.font:')
-    font=$(echo $fontstr | awk -F: '{ print $3 }')
-    [[ $font != "" ]] && color-echo 'FONT' '    '" $font"
+    font=$(echo $fontstr | awk -F: '{ print $2 }')
+    [[ $font != "" ]] && color-echo 'FONT' '   '" $font"
 }
 
 print-distro() {

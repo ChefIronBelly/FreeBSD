@@ -61,6 +61,7 @@ alias grab='imlib2_grab'
 alias stime='sudo ntpd -dnq -p pool.ntp.org'
 #suspalias rnet='sudo /etc/init.d/networking restart'
 alias mp3='youtube-dl -x --embed-thumbnail --audio-format mp3'
+alias wet='curl https://wttr.in/det'
 
 PS1=""
  case `id -u` in
