@@ -66,9 +66,9 @@ static const char *surfcmd[]  = { "firefox", NULL };
 static const char *editcmd[]  = { "geany", NULL };
 static const char *somacmd[]  = { "/home/chef/.bin/dmenu_soma.sh", NULL };
 static const char *wallcmd[]  = { "bud ~/Pictures/Wallpapers", NULL };
-static const char *volup[]    = { "volume.sh", "+", NULL };
-static const char *voldown[]  = { "volume.sh", "-", NULL };
-static const char *volmute[]  = { "volume.sh", "0", NULL };
+static const char *volup[]    = { "/usr/sbin/mixer",   "vol=+5%:+5%", NULL };
+static const char *voldown[]  = { "/usr/sbin/mixer",   "vol=-5%:-5%", NULL };
+static const char *volmute[]  = { "/usr/sbin/mixer",   "vol.mute=^", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -78,7 +78,7 @@ static const Key keys[] = {
     { MODKEY|ShiftMask,             XK_g,      spawn,          {.v = editcmd } },
     { MODKEY|ShiftMask,             XK_r,      spawn,          {.v = somacmd } },
     { MODKEY|ShiftMask,             XK_w,      spawn,          {.v = wallcmd } },    
-    { MODKEY,                       XK_F10,    spawn,          {.v = volup } },
+    { MODKEY,                       XK_F10,    spawn,		   {.v = volup } },
     { MODKEY,                       XK_F11,    spawn,          {.v = voldown } },
     { MODKEY,                       XK_F12,    spawn,          {.v = volmute } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
