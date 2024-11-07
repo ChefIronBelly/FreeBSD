@@ -32,6 +32,7 @@ alias upd='sudo pkg update'
 alias upg='sudo pkg upgrade'
 alias search='sudo pkg search'
 alias clean='sudo pkg clean'
+alias autorem='sudo pkg autoremove'
 alias freeupd='sudo freebsd-update fetch'
 alias freeupg='sudo freebsd-update install'
 
@@ -60,8 +61,9 @@ alias view='imlib2_view'
 alias grab='imlib2_grab'
 alias stime='sudo ntpd -dnq -p pool.ntp.org'
 alias rnet='sudo service netif restart'
-alias mp3='youtube-dl -x --embed-thumbnail --audio-format mp3'
+alias mp3='yt-dlp -x --audio-format mp3'
 alias wet='curl https://wttr.in/det'
+alias ifup='sudo dhclient re0'
 
 PS1=""
  case `id -u` in
