@@ -64,6 +64,8 @@ alias rnet='sudo service netif restart'
 alias mp3='yt-dlp -x --audio-format mp3'
 alias wet='curl https://wttr.in/det'
 alias ifup='sudo dhclient re0'
+alias phup='sudo dhclient ue0'
+alias route='/etc/rc.d/routing restart'
 
 PS1=""
  case `id -u` in
