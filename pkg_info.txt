@@ -18,13 +18,14 @@ dbus-glib-0.112_1              GLib bindings for the D-BUS messaging system
 dejavu-2.37_3                  Bitstream Vera Fonts clone with a wider range of characters
 desktop-file-utils-0.27        Couple of command line utilities for working with desktop entries
 diffutils-3.8_1                GNU differential compare utilities
-drm-61-kmod-6.1.92_2           DRM drivers modules
+drm-61-kmod-6.1.92_3           DRM drivers modules
 drm-kmod-20220907_3            Metaport of DRM modules for the linuxkpi-based KMS components
 duktape-lib-2.7.0              Embeddable Javascript engine (shared lib)
 encodings-1.1.0,1              X.Org Encoding fonts
 expat-2.6.4                    XML 1.0 parser written in C
-fastfetch-2.30.1_1             Like neofetch, but much faster because written in C
+fastfetch-2.31.0               Like neofetch, but much faster because written in C
 ffmpeg-6.1.2_6,1               Realtime audio/video encoder/converter and streaming server
+ffnvcodec-headers-12.0.16.1    FFmpeg version of Nvidia Codec SDK headers
 firefox-133.0_2,2              Web browser based on the browser portion of Mozilla
 font-adobe-100dpi-1.0.3_4      X.Org Adobe 100dpi font
 font-adobe-75dpi-1.0.3_4       X.Org Adobe 75dpi font
@@ -208,10 +209,10 @@ gpu-firmware-radeon-kmod-verde-20220511 Firmware modules for verde Radeon GPUs
 graphene-1.10.8_1              Optimizations for speeding up vector operations
 graphite2-1.3.14               Rendering capabilities for complex non-Roman writing systems
 gsettings-desktop-schemas-42.0 Collection of globally shared GSetting schemas
-gstreamer1-1.24.9_2            Media applications framework
-gstreamer1-plugins-1.24.9      GStreamer written collection of plugins handling several media types
-gstreamer1-plugins-bad-1.24.9  GStreamer-plugins that need more quality, testing or documentation
-gstreamer1-plugins-gl-1.24.9   GStreamer GL graphics plugin
+gstreamer1-1.24.10             Media applications framework
+gstreamer1-plugins-1.24.10     GStreamer written collection of plugins handling several media types
+gstreamer1-plugins-bad-1.24.10 GStreamer-plugins that need more quality, testing or documentation
+gstreamer1-plugins-gl-1.24.10  GStreamer GL graphics plugin
 gtk-update-icon-cache-3.24.31_1 Gtk-update-icon-cache utility from the Gtk+ toolkit
 gtk3-3.24.43                   Gimp Toolkit for X11 GUI (current stable version)
 gtk4-4.16.5                    Gimp Toolkit for X11 GUI (current stable version)
@@ -250,6 +251,7 @@ libXi-1.8.1,1                  X Input extension library
 libXinerama-1.1.5,1            X11 Xinerama library
 libXmu-1.1.4,1                 X Miscellaneous Utilities libraries
 libXpm-3.5.17_1                X Pixmap library
+libXpresent-1.0.0_1            X Present Extension library
 libXrandr-1.5.4                X Resize and Rotate extension library
 libXrender-0.9.11              X Render extension library
 libXres-1.2.2_1                X Resource usage library
@@ -259,11 +261,14 @@ libXv-1.0.12_1,1               X Video Extension library
 libXvMC-1.0.14                 X Video Extension Motion Compensation library
 libXxf86dga-1.1.6_1            X DGA Extension
 libXxf86vm-1.1.5               X Vidmode Extension
+libarchive-3.7.7,1             Library to create and read several streaming archive formats
 libass-0.17.3                  Portable ASS/SSA subtitle renderer
 libdaemon-0.14_1               Lightweight C library that eases the writing of UNIX daemons
 libdatrie-0.2.13_2             Double-array trie implementation library
 libdeflate-1.22                Fast, whole-buffer DEFLATE-based compression library
 libdrm-2.4.123,1               Direct Rendering Manager library and headers
+libdvdnav-6.1.1                Videolan version of the libdvdnav project
+libdvdread-6.1.3               Videolan version of the libdvdread project
 libedit-3.1.20240808,1         Command line editor library
 libepoll-shim-0.0.20240608     Small epoll implementation using kqueue
 libepoxy-1.5.10                Library to handle OpenGL function pointer management
@@ -315,6 +320,7 @@ libxml2-2.11.9                 XML parser library for GNOME
 libxshmfence-1.3.2             Shared memory 'SyncFence' synchronization primitive
 llvm15-15.0.7_10               LLVM and Clang
 lua53-5.3.6_1                  Powerful, efficient, lightweight, embeddable scripting language
+luajit-devel-2.1.0.20241114    Just-In-Time Compiler for Lua
 luit-20240102_1                Locale and ISO 2022 support for Unicode terminals
 mc-4.8.32                      Midnight Commander, a free Norton Commander clone
 mesa-dri-24.1.7_1              OpenGL hardware acceleration drivers for DRI2+
@@ -323,6 +329,7 @@ mkfontscale-1.2.3              Creates an index of scalable font files for X
 mksh-59c_1                     MirBSD Korn Shell
 mpdecimal-4.0.0                C/C++ arbitrary precision decimal floating point libraries
 mpg123-1.32.9                  Command-line player for MPEG Layer 1, 2, and 3 audio files
+mpv-0.39.0_1,1                 Free and open-source general-purpose video player
 nettle-3.10_1                  Low-level cryptographic library
 nspr-4.36                      Platform-neutral API for system level and libc like functions
 nss-3.107                      Libraries to support development of security-enabled applications
@@ -359,13 +366,24 @@ pkg-1.21.3                     Package manager
 pkgconf-2.3.0,1                Utility to help to configure compiler and linker flags
 png-1.6.44                     Library for manipulating PNG images
 polkit-125                     Framework for controlling access to system-wide components
+py311-brotli-1.1.0             Generic-purpose lossless compression algorithm
 py311-cairo-1.21.0,1           Python bindings for Cairo
+py311-certifi-2024.8.30        Mozilla SSL certificates
+py311-charset-normalizer-3.4.0 Real First Universal Charset Detector
 py311-evdev-1.7.0              Bindings to the Linux input handling subsystem
+py311-idna-3.10                Internationalized Domain Names in Applications (IDNA)
+py311-mutagen-1.47.0           Python-based audio metadata tag reader and writer
 py311-packaging-24.2           Core utilities for Python packages
+py311-pycryptodomex-3.21.0     Cryptographic library for Python
 py311-pygobject-3.50.0         Python bindings for GObject Introspection
+py311-pysocks-1.7.1_1          Python SOCKS module
 py311-pyudev-0.24.1            Pure Python libudev binding
+py311-requests-2.32.3          Python HTTP for Humans
 py311-setuptools-63.1.0_1      Python packages installer
 py311-six-1.16.0_1             Python 2 and 3 compatibility utilities
+py311-sqlite3-3.11.10_7        Standard Python binding to the SQLite3 library (Python 3.11)
+py311-urllib3-1.26.20,1        HTTP library with thread-safe connection pooling, file post, and more
+py311-websockets-14.1          Implementation of the WebSocket Protocol (RFC 6455 and 7692)
 pygobject-common-3.50.0        Common files for Python bindings for GObject Introspection
 python311-3.11.10              Interpreted object-oriented programming language
 readline-8.2.13_2              Library for editing command lines as they are typed
@@ -382,10 +400,11 @@ sudo-1.9.16p2                  Allow others to run commands as root
 svt-av1-2.3.0                  Scalable AV1 encoder
 tiff-4.7.0                     Tools and library routines for working with TIFF images
 twm-1.0.12_1                   Tab Window Manager for the X Window System
+uchardet-0.0.8_1               Universal charset detection library
 vmaf-3.0.0                     Perceptual video quality assessment based on multi-method fusion
 vte3-0.70.2_5                  Terminal widget with improved accessibility and I18N support
-vulkan-headers-1.3.302         Headers for the Vulkan graphics API
-vulkan-loader-1.3.302          Driver loader for the Vulkan graphics API
+vulkan-headers-1.4.303_1       Headers for the Vulkan graphics API
+vulkan-loader-1.4.303          Driver loader for the Vulkan graphics API
 wayland-1.23.1                 Core Wayland window system code and protocol
 wayland-protocols-1.38         Wayland protocols
 webp-1.4.0_1                   Google WebP image format conversion tool
@@ -446,13 +465,14 @@ xrdb-1.2.1_1                   X server resource database utility
 xrefresh-1.1.0                 Refresh all or part of an X screen
 xset-1.2.5_1                   User preference utility for X
 xsetroot-1.1.2_1               Root window parameter setting utility for X
-xterm-395                      Terminal emulator for the X Window System
+xterm-396                      Terminal emulator for the X Window System
 xtrans-1.4.0_1                 Abstract network code for X
 xvinfo-1.1.5_1                 Print out X-Video extension adaptor information
 xwd-1.0.8_1                    Dump an image of an X window
 xwininfo-1.1.5_1               Window information utility for X
 xwud-1.0.5_1                   Image displayer for X
 xxhash-0.8.2_1                 Extremely fast non-cryptographic hash algorithm
+yt-dlp-2024.12.03              Command-line program for downloading videos from various platforms
 yyjson-0.10.0                  Fastest JSON library in C
 zip-3.0_2                      Create/update ZIP files compatible with PKZIP
 zstd-1.5.6                     Fast real-time compression algorithm
