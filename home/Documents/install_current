@@ -4,9 +4,9 @@
 
 default install using UFS default sizes
 
-#pkg install sudo mc mksh bash gh
-#visudo enable wheel
-#vi /etc/group add user to wheel and video
+# pkg install sudo mc mksh bash gh
+# visudo enable wheel
+# vi /etc/group add user to wheel and video
 logout
 
 ****
@@ -17,10 +17,10 @@ $ sudo pkg install xorg drm-kmod pkgconf liberation-fonts-ttf
 $ mkdir ~/Source
 $ cd Source
 $ git clone https://github.com/ChefIronBelly/FreeBSD.git
-cp user files and root files from /boot /etc /home to system
+$ cp user files and root files from /boot /etc /home to system
 
-cd Source /dwm /dmenu /st and sudo make clean install
-sudo mkdir /mnt/usb
+$ cd Source /dwm /dmenu /st and sudo make clean install
+$ sudo mkdir /mnt/usb
 
-pkg install firefox geany
-pkg install mpg123 mpv yt-dlp scrot freecolor fastfetch
+$ pkg install firefox geany
+$ pkg install mpg123 mpv yt-dlp scrot freecolor fastfetch
