@@ -4,7 +4,7 @@
 
 default install using UFS default sizes
 
-# pkg install sudo mc mksh bash gh
+# pkg install sudo mc mksh bash gh cpu-microcode-amd
 # visudo enable wheel
 # vi /etc/group add user to wheel and video
 logout
