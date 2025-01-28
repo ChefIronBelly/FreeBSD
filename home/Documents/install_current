@@ -12,7 +12,7 @@ logout
 ****
 as user
 $ chsh /usr/local/bin/mksh
-$ sudo pkg install xorg drm-kmod pkgconf liberation-fonts-ttf
+$ sudo pkg install xorg-minimal libXft xrdb xset xsetroot drm-kmod pkgconf liberation-fonts-ttf
 
 $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/FreeBSD.git
@@ -23,3 +23,5 @@ $ sudo mkdir /mnt/usb
 
 $ sudo pkg install firefox geany
 $ sudo pkg install mpg123 mpv yt-dlp scrot freecolor fastfetch 
+
+# 1/28/25
