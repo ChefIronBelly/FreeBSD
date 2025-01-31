@@ -3,7 +3,6 @@ adwaita-icon-theme-42.0        GNOME Symbolic Icons
 aom-3.11.0                     AV1 reference encoder/decoder
 at-spi2-core-2.54.1            Assistive Technology Service Provider Interface
 avahi-app-0.8_2                Service discovery on a local network
-bash-5.2.37                    GNU Project's Bourne Again SHell
 brotli-1.1.0,1                 Generic-purpose lossless compression algorithm
 cairo-1.18.2,3                 Vector graphics library with cross-device output support
 colord-1.4.7_2                 Manage color profiles to accurately color input/output devices
@@ -315,7 +314,7 @@ pcre-8.45_4                    Perl Compatible Regular Expressions library
 pcre2-10.43                    Perl Compatible Regular Expressions library, version 2
 perl5-5.36.3_2                 Practical Extraction and Report Language
 pixman-0.44.2                  Low-level pixel manipulation library
-pkg-2.0.3                      Package manager
+pkg-2.0.4                      Package manager
 pkgconf-2.3.0,1                Utility to help to configure compiler and linker flags
 png-1.6.45                     Library for manipulating PNG images
 polkit-125                     Framework for controlling access to system-wide components
@@ -344,7 +343,7 @@ scrot-1.11.1                   SCReenshOT - command line screen capture utility
 shaderc-2024.4                 GLSL/HLSL to SPIR-V shader compiler
 shared-mime-info-2.4_1         MIME types database from the freedesktop.org project
 spirv-llvm-translator-llvm15-15.0.8 Bi-directional translation between SPIR-V and LLVM IR
-spirv-tools-2024.4.r2          Tools for processing SPIR-V intermediate shader language modules
+spirv-tools-2024.4.r2_1        Tools for processing SPIR-V intermediate shader language modules
 sqlite3-3.46.1,1               SQL database engine in a C library
 sudo-1.9.16p2_1                Allow others to run commands as root
 svt-av1-2.3.0                  Scalable AV1 encoder
@@ -352,8 +351,8 @@ tiff-4.7.0                     Tools and library routines for working with TIFF 
 uchardet-0.0.8_1               Universal charset detection library
 vmaf-3.0.0                     Perceptual video quality assessment based on multi-method fusion
 vte3-0.78.2                    Terminal widget with improved accessibility and I18N support
-vulkan-headers-1.4.305         Headers for the Vulkan graphics API
-vulkan-loader-1.4.305          Driver loader for the Vulkan graphics API
+vulkan-headers-1.4.306         Headers for the Vulkan graphics API
+vulkan-loader-1.4.306          Driver loader for the Vulkan graphics API
 wayland-1.23.1                 Core Wayland window system code and protocol
 wayland-protocols-1.39         Wayland protocols
 webp-1.5.0                     Google WebP image format conversion tool
@@ -372,7 +371,7 @@ xrdb-1.2.1_1                   X server resource database utility
 xset-1.2.5_1                   User preference utility for X
 xsetroot-1.1.2_1               Root window parameter setting utility for X
 xxhash-0.8.2_1                 Extremely fast non-cryptographic hash algorithm
-yt-dlp-2025.01.15              Command-line program for downloading videos from various platforms
+yt-dlp-2025.01.26              Command-line program for downloading videos from various platforms
 yyjson-0.10.0                  Fastest JSON library in C
 zip-3.0_4                      Create/update ZIP files compatible with PKZIP
 zstd-1.5.6                     Fast real-time compression algorithm
