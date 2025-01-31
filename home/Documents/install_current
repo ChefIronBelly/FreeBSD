@@ -8,7 +8,7 @@ default install using UFS default sizes
 pkgconf mksh
 
 # visudo enable wheel
-# add user to wheel and video
+# pw usermod user -G wheel,video
 logout
 
 ****
