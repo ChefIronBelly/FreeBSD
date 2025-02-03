@@ -214,6 +214,7 @@ pygobject-common-3.50.0        Common files for Python bindings for GObject Intr
 python311-3.11.11              Interpreted object-oriented programming language
 readline-8.2.13_2              Library for editing command lines as they are typed
 scrot-1.11.1                   SCReenshOT - command line screen capture utility
+setxkbmap-1.3.2_1              Set the keyboard using the X Keyboard Extension
 shaderc-2024.4                 GLSL/HLSL to SPIR-V shader compiler
 shared-mime-info-2.4_1         MIME types database from the freedesktop.org project
 spirv-llvm-translator-llvm15-15.0.8 Bi-directional translation between SPIR-V and LLVM IR
