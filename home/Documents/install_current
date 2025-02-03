@@ -8,7 +8,7 @@ default install using UFS default sizes
 pkgconf mksh
 
 # starting 1/30/25 also needed pkg amd64-freebsd-sysroot-a2024.12.31
-# pilfered and moved or add to path /usr/local/lib/libdevinfo.so.6
+# pilfered and moved /usr/local/lib/libdevinfo.so.6
 
 # visudo enable wheel
 # pw usermod user -G wheel,video
