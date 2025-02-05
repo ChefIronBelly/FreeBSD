@@ -30,5 +30,5 @@ xsetroot -solid "$(xrdb -query | awk '/\*.color8/ {print $2}')"
 
 #dwm_start.sh
 
-bud ~/Pictures/Wallpapers
+#bud ~/Pictures/Wallpapers
 exec sowm
