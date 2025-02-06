@@ -14,7 +14,7 @@ select opt in "${array[@]}"; do
     # this makes the last stream available in 'playstream'
     echo  "$opt" > ~/.bin/.playstream
     if [ $DISPLAY ]; then
-    echo "Buffering $opt ..." #| osd_cat  -s 1 -S black -p top -A center -d 10 -c grey -l 1
+    echo "Buffering $opt ..." | osd_cat  -s 1 -S black -p top -A center -d 10 -c grey -l 1
     fi
     mpg123 -@ http://somafm.com/"$opt".pls
 
