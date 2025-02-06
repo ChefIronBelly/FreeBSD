@@ -12,11 +12,11 @@ select opt in "${array[@]}"; do
     [[ $1 =~ ^-r ]] && streamripper "$opt" &
     echo "Caching $opt ... be patient!"
     # this makes the last stream available in 'playstream'
-    echo  "$opt" > ~/.playstream
+    echo  "$opt" > ~/.bin/.playstream
     if [ $DISPLAY ]; then
-    echo "Buffering $opt ..." | osd_cat  -s 1 -S black -p top -A center -d 10 -c grey -l 1
+    echo "Buffering $opt ..." #| osd_cat  -s 1 -S black -p top -A center -d 10 -c grey -l 1
     fi
-    mpg123 -@ "$opt".pls
+    mpg123 -@ http://somafm.com/"$opt".pls
 
     break
 done
