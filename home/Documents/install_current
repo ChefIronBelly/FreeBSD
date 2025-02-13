@@ -4,7 +4,7 @@
 
 default install using UFS default sizes
 
-# pkg install xorg-minimal drm-61-kmod libXft xrdb xset xsetroot setxkbmap sudo cpu-microcode-amd
+# pkg install xorg-minimal drm-61-kmod libXft xrdb xset xsetroot setxkbmap xmodmap sudo cpu-microcode-amd
 pkgconf mksh
 
 ### starting 1/30/25 also needed pkg amd64-freebsd-sysroot-a2024.12.31
