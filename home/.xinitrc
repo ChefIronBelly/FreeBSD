@@ -29,4 +29,3 @@ while true; do
 done &
 
 dwm_start.sh
-#exec sowm
