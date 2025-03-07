@@ -23,7 +23,7 @@ logout
 ****
 as user
 $ chsh /usr/local/bin/mksh
-$ sudo pkg install  firefox geany mc mpv yt-dlp mpg123 bash gh liberation-fonts-ttf
+$ sudo pkg install  firefox geany mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
 scrot freecolor fastfetch
 
 $ mkdir ~/Source & cd Source
@@ -33,4 +33,4 @@ $ cp user files and root files from /boot /etc /home to system
 $ cd Source /dwm /dmenu /st and sudo make clean install
 $ sudo mkdir /mnt/usb
 
-# 250209
+# 250307
