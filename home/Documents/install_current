@@ -4,8 +4,8 @@
 
 default install using UFS default sizes
 
-# pkg install xorg-minimal drm-61-kmod libXft xrdb xset xsetroot setxkbmap xmodmap sudo cpu-microcode-amd
-pkgconf mksh
+# pkg install xorg-minimal drm-61-kmod libXft xrdb xset xsetroot setxkbmap xmodmap doas cpu-microcode-amd
+pkgconf ksh
 
 ### starting 1/30/25 also needed pkg amd64-freebsd-sysroot-a2024.12.31
 ### pilfered and moved /usr/local/lib/libdevinfo.so.6
@@ -16,14 +16,14 @@ pkgconf mksh
 ### pkg provides filename
 
 
-# visudo enable wheel
+# echo permit persist :wheel > /usr/pkg/etc/doas.conf
 # pw usermod user -G wheel,video or use installer at user create
 logout
 
 ****
 as user
 $ chsh /usr/local/bin/mksh
-$ sudo pkg install  firefox geany mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
+$ doas pkg install  firefox geany mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
 scrot freecolor fastfetch
 
 $ mkdir ~/Source & cd Source
@@ -31,6 +31,6 @@ $ git clone https://github.com/ChefIronBelly/FreeBSD.git
 $ cp user files and root files from /boot /etc /home to system
 
 $ cd Source /dwm /dmenu /st and sudo make clean install
-$ sudo mkdir /mnt/usb
+$ doas mkdir /mnt/usb
 
-# 250307
+# 250707
