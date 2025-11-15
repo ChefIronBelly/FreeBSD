@@ -1,4 +1,4 @@
-# OS: FreeBSD 15.0-CURRENT amd64
+# OS: FreeBSD 16.0-CURRENT amd64
 
 https://download.freebsd.org/snapshots/amd64/amd64/ISO-IMAGES/15.0/
 
