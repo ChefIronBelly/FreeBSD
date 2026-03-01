@@ -1,6 +1,6 @@
 # FreeBSD-16-CURRENT
 
-# start w / FreeBSD-15.0-CURRENT-amd64-*-mini-memstick.img.xz
+# start w / FreeBSD-16.0-CURRENT-amd64-*-mini-memstick.img.xz
 
 default install using UFS default sizes
 
@@ -33,4 +33,4 @@ $ cp user files and root files from /boot /etc /home to system
 $ cd Source /dwm /dmenu /st and doas make clean install
 $ doas mkdir /mnt/usb
 
-# 251115
+# 260301
