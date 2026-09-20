@@ -18,13 +18,13 @@ xrdb < ~/.Xdefaults
 #xsidle.sh lock &
 
 xsetroot -cursor_name left_ptr
-#hsetroot -fill ~/Pictures/Wallpapers/11855.jpg -blur .5
+hsetroot -fill ~/Pictures/1-city-view.webp -blur .5
 #xsetroot -mod 16 16 -bg "$(xrdb -query | awk '/\*.background/ {print $2}')" -fg "$(xrdb -query | awk '/\*.color8/ {print $2}')"
-xsetroot -solid "$(xrdb -query | awk '/\*.color8/ {print $2}')"
+#xsetroot -solid "$(xrdb -query | awk '/\*.color8/ {print $2}')"
 #bud /home/chef/Pictures/Wallpapers/11855.jpg
 
 while true; do
-	xsetroot -name " $(date +"%a %b %d,") $(date +"%I:%M")"
+	xsetroot -name " $(uname) - $(date +"%a %b %d,") $(date +"%I:%M")"
 	sleep 60
 done &
 

@@ -8,14 +8,14 @@ default install using UFS default sizes
 pkgconf mksh
 
 # echo permit persist :wheel > /usr/local/etc/doas.conf
-# pw usermod user -G wheel,video or use installer at user create
+# pw usermod user -G wheel,video,audio or use installer at user create
 logout
 
 ****
 as user
 $ chsh /usr/local/bin/mksh
 $ doas pkg install  firefox geany mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
-scrot freecolor fastfetch
+scrot freecolor neofetch hsetroot
 
 $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/FreeBSD.git
