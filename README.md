@@ -1,4 +1,4 @@
-# OS: FreeBSD 15.1-RELEASE amd64
+# OS: FreeBSD-16-CURRENT amd64
 
 https://download.freebsd.org
 
