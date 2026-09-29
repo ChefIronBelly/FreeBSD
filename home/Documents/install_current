@@ -15,7 +15,7 @@ logout
 as user
 $ chsh /usr/local/bin/mksh
 $ doas pkg install  firefox geany mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
-scrot freecolor neofetch hsetroot
+scrot freecolor fastfetch hsetroot
 
 $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/FreeBSD.git
