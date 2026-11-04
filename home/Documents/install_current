@@ -5,7 +5,7 @@
 default install using UFS default sizes
 
 # pkg install xorg-minimal drm-66-kmod libXft xrdb xset xsetroot setxkbmap xmodmap doas cpu-microcode-amd
-pkgconf mksh
+pkgconf mksh nvidia-driver-580 nvidia-xconfig pipewire
 
 # echo permit persist :wheel > /usr/local/etc/doas.conf
 # pw usermod user -G wheel,video,audio or use installer at user create
@@ -24,4 +24,4 @@ $ cp user files and root files from /boot /etc /home to system as needed
 $ cd Source /dwm /dmenu /st and doas make clean install
 $ doas mkdir /mnt/usb
 
-# 260619
+# 261104
