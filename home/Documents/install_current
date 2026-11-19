@@ -1,14 +1,11 @@
 # FreeBSD-16-CURRENT
 
-# OS: Omarchy 1.5.0,1 on FreeBSD 16.0-CURRENT
-# lots of hackery, this is for ref.
-
 # start w / FreeBSD-16.0-CURRENT-amd64-*-mini-memstick.img.xz
 
 default install using UFS default sizes
 
-# pkg install xorg-minimal drm-66-kmod libXft xrdb xset xsetroot setxkbmap xmodmap doas cpu-microcode-amd
-pkgconf mksh nvidia-driver-580 nvidia-xconfig pipewire
+# pkg install xorg-minimal drm-612-kmod libXft xrdb xset xsetroot hsetroot setxkbmap xmodmap doas cpu-microcode-amd
+pkgconf mksh pipewire
 
 # echo permit persist :wheel > /usr/local/etc/doas.conf
 # pw usermod user -G wheel,video,audio or use installer at user create
@@ -17,8 +14,8 @@ logout
 ****
 as user
 $ chsh /usr/local/bin/mksh
-$ doas pkg install  firefox geany mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
-scrot freecolor fastfetch hsetroot
+$ doas pkg install  chromium neovim mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
+scrot freecolor fastfetch wl-clipboard
 
 $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/FreeBSD.git
@@ -27,4 +24,4 @@ $ cp user files and root files from /boot /etc /home to system as needed
 $ cd Source /dwm /dmenu /st and doas make clean install
 $ doas mkdir /mnt/usb
 
-# 261104
+# 261119
