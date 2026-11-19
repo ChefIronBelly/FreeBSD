@@ -15,7 +15,7 @@ logout
 as user
 $ chsh /usr/local/bin/mksh
 $ doas pkg install  chromium neovim mc mpv yt-dlp mpg123 gh liberation-fonts-ttf
-scrot freecolor fastfetch wl-clipboard
+scrot freecolor fastfetch wl-clipboard cliamp
 
 $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/FreeBSD.git
