@@ -2,26 +2,26 @@ FreeBSD-acct-16.snap20261116114715 System resource accounting
 FreeBSD-acpi-16.snap20261113025131 Advanced Configuration and Power Interface (ACPI) utilities
 FreeBSD-apm-16.snap20261113025131 Intel / Microsoft APM BIOS utility
 FreeBSD-at-16.snap20261113025131 Scheduled and batch command utilities
-FreeBSD-atf-16.snap20261116114715 Automated Testing Framework
+FreeBSD-atf-16.snap20261120170842 Automated Testing Framework
 FreeBSD-atf-dev-16.snap20261116114715 Automated Testing Framework (development files)
 FreeBSD-atf-lib-16.snap20261116114715 Automated Testing Framework (libraries)
-FreeBSD-audit-16.snap20261114173543 OpenBSM auditing utilities
-FreeBSD-audit-dev-16.snap20261114173543 OpenBSM auditing utilities (development files)
+FreeBSD-audit-16.snap20261123030339 OpenBSM auditing utilities
+FreeBSD-audit-dev-16.snap20261123030339 OpenBSM auditing utilities (development files)
 FreeBSD-audit-lib-16.snap20261114173543 OpenBSM auditing utilities (libraries)
-FreeBSD-autofs-16.snap20261114005723 File system automounter
-FreeBSD-bhyve-16.snap20261118000146 bhyve virtual machine hypervisor
-FreeBSD-blocklist-16.snap20261114145455 Network blocklist daemon
+FreeBSD-autofs-16.snap20261123030339 File system automounter
+FreeBSD-bhyve-16.snap20261120170842 bhyve virtual machine hypervisor
+FreeBSD-blocklist-16.snap20261120170842 Network blocklist daemon
 FreeBSD-blocklist-dev-16.snap20261113025131 Network blocklist daemon (development files)
 FreeBSD-blocklist-lib-16.snap20261113025131 Network blocklist daemon (libraries)
-FreeBSD-bluetooth-16.snap20261113025131 Bluetooth support
+FreeBSD-bluetooth-16.snap20261122100343 Bluetooth support
 FreeBSD-bluetooth-dev-16.snap20261113025131 Bluetooth support (development files)
 FreeBSD-bluetooth-lib-16.snap20261113025131 Bluetooth support (libraries)
 FreeBSD-bmake-16.snap20261113025131 Program maintenance utility
-FreeBSD-bootloader-16.snap20261115130114 System boot loader
+FreeBSD-bootloader-16.snap20261124014310 System boot loader
 FreeBSD-bootloader-dev-16.snap20260720180802 System boot loader (development files)
-FreeBSD-bsdconfig-16.snap20260915211716 System configuration utility
-FreeBSD-bsdinstall-16.snap20261113025131 System installer
-FreeBSD-bsnmp-16.snap20261118000146 Simple and extensible SNMP daemon
+FreeBSD-bsdconfig-16.snap20261121235602 System configuration utility
+FreeBSD-bsdinstall-16.snap20261120170842 System installer
+FreeBSD-bsnmp-16.snap20261123030339 Simple and extensible SNMP daemon
 FreeBSD-bsnmp-dev-16.snap20261117170933 Simple and extensible SNMP daemon (development files)
 FreeBSD-bzip2-16.snap20261113025131 A block-sorting data compressor
 FreeBSD-bzip2-dev-16.snap20260905111122 A block-sorting data compressor (development files)
@@ -29,33 +29,33 @@ FreeBSD-bzip2-lib-16.snap20260924131705 A block-sorting data compressor (librari
 FreeBSD-caroot-16.snap20261020194507 Mozilla Root Store trusted TLS certificates
 FreeBSD-ccdconfig-16.snap20261114005723 Concatenated disk driver (ccd) configuration utility
 FreeBSD-certctl-16.snap20261113025131 Tool for managing trusted and untrusted TLS certificates
-FreeBSD-clang-16.snap20261119083316 The Clang C, C++, and Objective-C compiler
-FreeBSD-clang-dev-16.snap20261116114715 The Clang C, C++, and Objective-C compiler (development files)
-FreeBSD-clibs-16.snap20261118050141 Core runtime libraries
-FreeBSD-clibs-dev-16.snap20261119111134 Core runtime libraries (development files)
-FreeBSD-clibs-lib32-16.snap20261118050141 Core runtime libraries (32-bit libraries)
-FreeBSD-console-tools-16.snap20261116114715 Video console utilities
-FreeBSD-cron-16.snap20261113025131 Command scheduling facility
-FreeBSD-csh-16.snap20261113025131 C shell with file name completion and command line editing
+FreeBSD-clang-16.snap20261123030339 The Clang C, C++, and Objective-C compiler
+FreeBSD-clang-dev-16.snap20261120170842 The Clang C, C++, and Objective-C compiler (development files)
+FreeBSD-clibs-16.snap20261123233857 Core runtime libraries
+FreeBSD-clibs-dev-16.snap20261124000643 Core runtime libraries (development files)
+FreeBSD-clibs-lib32-16.snap20261123233857 Core runtime libraries (32-bit libraries)
+FreeBSD-console-tools-16.snap20261120091108 Video console utilities
+FreeBSD-cron-16.snap20261120170842 Command scheduling facility
+FreeBSD-csh-16.snap20261120170842 C shell with file name completion and command line editing
 FreeBSD-ctf-16.snap20261113025131 Compact C Type Format (CTF)
 FreeBSD-ctf-dev-16.snap20261113025131 Compact C Type Format (CTF) (development files)
 FreeBSD-ctf-lib-16.snap20261113025131 Compact C Type Format (CTF) (libraries)
-FreeBSD-ctl-16.snap20261116114715 CAM Target Layer / iSCSI target daemon
+FreeBSD-ctl-16.snap20261120170842 CAM Target Layer / iSCSI target daemon
 FreeBSD-cxgbe-tools-16.snap20261113025131 Configuration utility for Chelsio cxbge(4) network interfaces
 FreeBSD-devd-16.snap20261116114715 Kernel event handling daemon
 FreeBSD-devmatch-16.snap20261113025131 Automatically load kernel drivers for attached hardware
 FreeBSD-devmatch-dev-16.snap20260925154633 Automatically load kernel drivers for attached hardware (development files)
-FreeBSD-dhclient-16.snap20261113025131 Dynamic Host Configuration Protocol (DHCP) client
-FreeBSD-dma-16.snap20261113025131 DragonFly Mail Agent
+FreeBSD-dhclient-16.snap20261120170842 Dynamic Host Configuration Protocol (DHCP) client
+FreeBSD-dma-16.snap20261120170842 DragonFly Mail Agent
 FreeBSD-dtrace-16.snap20261119102040 DTrace dynamic tracing framework
 FreeBSD-dtrace-dev-16.snap20261114005723 DTrace dynamic tracing framework (development files)
 FreeBSD-dwatch-16.snap20261007150141 Watch processes as they trigger a particular DTrace probe
 FreeBSD-ee-16.snap20261113025131 Easy Editor
-FreeBSD-efi-tools-16.snap20261113025131 Utilities for the Unified Extensible Firmware Interface (UEFI)
-FreeBSD-efi-tools-dev-16.snap20261113025131 Utilities for the Unified Extensible Firmware Interface (UEFI) (development files)
+FreeBSD-efi-tools-16.snap20261123030339 Utilities for the Unified Extensible Firmware Interface (UEFI)
+FreeBSD-efi-tools-dev-16.snap20261123030339 Utilities for the Unified Extensible Firmware Interface (UEFI) (development files)
 FreeBSD-examples-16.snap20261019090555 System interface examples
 FreeBSD-fd-16.snap20261113025131 Floppy disk utilities
-FreeBSD-fetch-16.snap20261117114913 Retrieve a file from a remote URL
+FreeBSD-fetch-16.snap20261120170842 Retrieve a file from a remote URL
 FreeBSD-fetch-dev-16.snap20261117114913 Retrieve a file from a remote URL (development files)
 FreeBSD-firmware-iwm-16.snap20260720180802 Firmware for iwm(4) Intel 802.11ac network interfaces
 FreeBSD-flua-16.snap20261116114715 Private Lua implementation
@@ -67,38 +67,38 @@ FreeBSD-geom-16.snap20261114005723 GEOM configuration utilities
 FreeBSD-ggate-16.snap20261114005723 GEOM Gate client and server
 FreeBSD-googletest-16.snap20261116114715 Unit testing framework
 FreeBSD-googletest-dev-16.snap20261116114715 Unit testing framework (development files)
-FreeBSD-gssd-16.snap20261117170933 gssd(8) daemon for kernel GSS-API
-FreeBSD-hast-16.snap20261114005723 Highly Available Storage daemon
+FreeBSD-gssd-16.snap20261120170842 gssd(8) daemon for kernel GSS-API
+FreeBSD-hast-16.snap20261120170842 Highly Available Storage daemon
 FreeBSD-hostapd-16.snap20261113025131 IEEE Std 802.11 Access Point authentication daemon
-FreeBSD-hyperv-tools-16.snap20261113025131 Microsoft Hyper-V utilities
-FreeBSD-inetd-16.snap20261116175944 Internet super-server
+FreeBSD-hyperv-tools-16.snap20261123030339 Microsoft Hyper-V utilities
+FreeBSD-inetd-16.snap20261120170842 Internet super-server
 FreeBSD-ipf-16.snap20261113025131 IP Filter (ipf) packet filter management tools
 FreeBSD-ipfw-16.snap20261116193756 ipfw (IP firewall) management utilities
-FreeBSD-iscsi-16.snap20261114005723 iSCSI initiator
-FreeBSD-jail-16.snap20261113025131 Jail management tools
-FreeBSD-kerberos-16.snap20261113025131 Kerberos client
+FreeBSD-iscsi-16.snap20261120170842 iSCSI initiator
+FreeBSD-jail-16.snap20261123030339 Jail management tools
+FreeBSD-kerberos-16.snap20261120170842 Kerberos client
 FreeBSD-kerberos-dev-16.snap20261113025131 Kerberos client (development files)
 FreeBSD-kerberos-kdc-16.snap20261113025131 Kerberos key distribution center
 FreeBSD-kerberos-lib-16.snap20261113025131 Kerberos client (libraries)
-FreeBSD-kernel-generic-16.snap20261119093735 FreeBSD GENERIC Kernel 
-FreeBSD-kernel-man-16.snap20261119080608 Kernel manual pages
-FreeBSD-kyua-16.snap20261119071228 Testing framework for infrastructure software
-FreeBSD-lib9p-16.snap20261113025131 9P network protocol library
-FreeBSD-lib9p-dev-16.snap20261113025131 9P network protocol library (development files)
-FreeBSD-libarchive-16.snap20261113025131 Library for reading and writing streaming archives
-FreeBSD-libarchive-dev-16.snap20261113025131 Library for reading and writing streaming archives (development files)
+FreeBSD-kernel-generic-16.snap20261124101926 FreeBSD GENERIC Kernel 
+FreeBSD-kernel-man-16.snap20261123191455 Kernel manual pages
+FreeBSD-kyua-16.snap20261123030339 Testing framework for infrastructure software
+FreeBSD-lib9p-16.snap20261123030339 9P network protocol library
+FreeBSD-lib9p-dev-16.snap20261123030339 9P network protocol library (development files)
+FreeBSD-libarchive-16.snap20261123030339 Library for reading and writing streaming archives
+FreeBSD-libarchive-dev-16.snap20261123030339 Library for reading and writing streaming archives (development files)
 FreeBSD-libbegemot-16.snap20261113002531 rpoll(3) interface for event-driven I/O
 FreeBSD-libbegemot-dev-16.snap20260905111122 rpoll(3) interface for event-driven I/O (development files)
 FreeBSD-libblocksruntime-16.snap20260924131705 LLVM BlocksRuntime library
 FreeBSD-libblocksruntime-dev-16.snap20260830183016 LLVM BlocksRuntime library (development files)
 FreeBSD-libbsdstat-16.snap20260924131705 Periodic statistics library
 FreeBSD-libbsdstat-dev-16.snap20260905111122 Periodic statistics library (development files)
-FreeBSD-libcasper-16.snap20261113025131 Casper library
+FreeBSD-libcasper-16.snap20261120170842 Casper library
 FreeBSD-libcasper-dev-16.snap20260720180802 Casper library (development files)
 FreeBSD-libcompat-dev-16.snap20261113025131 Compatibility library (development files)
 FreeBSD-libcompiler_rt-dev-16.snap20261113025131 LLVM compiler_rt library (development files)
-FreeBSD-libcuse-16.snap20261113025131 Userland character device library
-FreeBSD-libcuse-dev-16.snap20261113025131 Userland character device library (development files)
+FreeBSD-libcuse-16.snap20261120170842 Userland character device library
+FreeBSD-libcuse-dev-16.snap20261120170842 Userland character device library (development files)
 FreeBSD-libdwarf-16.snap20261113002531 DWARF access library
 FreeBSD-libdwarf-dev-16.snap20261113002531 DWARF access library (development files)
 FreeBSD-libevent1-16.snap20261113025131 Private libevent1 library
@@ -109,14 +109,14 @@ FreeBSD-libipt-16.snap20261113025131 Intel(R) Processor Trace decoder library
 FreeBSD-libipt-dev-16.snap20261113025131 Intel(R) Processor Trace decoder library (development files)
 FreeBSD-libldns-16.snap20261113025131 Private LDNS library
 FreeBSD-libldns-dev-16.snap20261113025131 Private LDNS library (development files)
-FreeBSD-libmagic-16.snap20261113025131 Magic number recognition library
-FreeBSD-libmagic-dev-16.snap20261113025131 Magic number recognition library (development files)
+FreeBSD-libmagic-16.snap20261120170842 Magic number recognition library
+FreeBSD-libmagic-dev-16.snap20261120170842 Magic number recognition library (development files)
 FreeBSD-libmilter-16.snap20261113025131 sendmail Mail Filter API library
 FreeBSD-libmilter-dev-16.snap20261113025131 sendmail Mail Filter API library (development files)
 FreeBSD-libpathconv-16.snap20260924131705 Library for handling relative and absolute pathnames
 FreeBSD-libpathconv-dev-16.snap20260904204043 Library for handling relative and absolute pathnames (development files)
-FreeBSD-librpcsec_gss-16.snap20261113025131 RPCSEC_GSS library
-FreeBSD-librpcsec_gss-dev-16.snap20261113025131 RPCSEC_GSS library (development files)
+FreeBSD-librpcsec_gss-16.snap20261120170842 RPCSEC_GSS library
+FreeBSD-librpcsec_gss-dev-16.snap20261120170842 RPCSEC_GSS library (development files)
 FreeBSD-librss-16.snap20261113002531 Receive-side scaling library
 FreeBSD-librss-dev-16.snap20260925154633 Receive-side scaling library (development files)
 FreeBSD-libsqlite3-16.snap20261113025131 Private SQLite library
@@ -127,19 +127,19 @@ FreeBSD-libucl-16.snap20261116114715 Private Universal Configuration Library (UC
 FreeBSD-libucl-dev-16.snap20261116114715 Private Universal Configuration Library (UCL) library (development files)
 FreeBSD-libvgl-16.snap20261113025131 Video Graphics Library
 FreeBSD-libvgl-dev-16.snap20261113025131 Video Graphics Library (development files)
-FreeBSD-libvmmapi-16.snap20261114005723 Front-end library for the vmm(4) virtualization driver
-FreeBSD-libvmmapi-dev-16.snap20261114005723 Front-end library for the vmm(4) virtualization driver (development files)
+FreeBSD-libvmmapi-16.snap20261124080535 Front-end library for the vmm(4) virtualization driver
+FreeBSD-libvmmapi-dev-16.snap20261124080535 Front-end library for the vmm(4) virtualization driver (development files)
 FreeBSD-libyaml-16.snap20260924131705 Private YAML library
 FreeBSD-libyaml-dev-16.snap20260905111122 Private YAML library (development files)
 FreeBSD-lld-16.snap20261113025131 LLVM ELF link loader
-FreeBSD-lldb-16.snap20261117170933 LLVM debugger
-FreeBSD-local-unbound-16.snap20261113025131 NLnet Labs Unbound DNS resolver
+FreeBSD-lldb-16.snap20261120170842 LLVM debugger
+FreeBSD-local-unbound-16.snap20261120170842 NLnet Labs Unbound DNS resolver
 FreeBSD-local-unbound-dev-16.snap20261113025131 NLnet Labs Unbound DNS resolver (development files)
 FreeBSD-locales-16.snap20260720180802 Locale definitions
-FreeBSD-lp-16.snap20261113025131 Print spooler
-FreeBSD-mandoc-16.snap20261119051744 Online manual page reader
+FreeBSD-lp-16.snap20261123030339 Print spooler
+FreeBSD-mandoc-16.snap20261120170842 Online manual page reader
 FreeBSD-mlx-tools-16.snap20261113025131 Utility for managing Connect-X 4/5/6 Mellanox network adapters
-FreeBSD-mtree-16.snap20261114145455 Filesystem hierarchy management tool
+FreeBSD-mtree-16.snap20261120204214 Filesystem hierarchy management tool
 FreeBSD-natd-16.snap20261113025131 Userland Network Address Translation (NAT) for ipfw
 FreeBSD-natd-dev-16.snap20261113025131 Userland Network Address Translation (NAT) for ipfw (development files)
 FreeBSD-ncurses-16.snap20261113025131 ncurses terminal control library
@@ -148,73 +148,73 @@ FreeBSD-ncurses-lib-16.snap20261113025131 ncurses terminal control library (libr
 FreeBSD-netmap-16.snap20261113025131 Userland netmap support
 FreeBSD-netmap-dev-16.snap20261113025131 Userland netmap support (development files)
 FreeBSD-newsyslog-16.snap20261113025131 Create and rotate system log files
-FreeBSD-nfs-16.snap20261114145455 NFS client and server utilities
-FreeBSD-ntp-16.snap20261116114715 Network Time Protocol (NTP) daemon
-FreeBSD-nuageinit-16.snap20261116005611 cloud-init configuration support
+FreeBSD-nfs-16.snap20261123030339 NFS client and server utilities
+FreeBSD-ntp-16.snap20261120170842 Network Time Protocol (NTP) daemon
+FreeBSD-nuageinit-16.snap20261120170842 cloud-init configuration support
 FreeBSD-nvme-tools-16.snap20261113025131 NVMe utilities
-FreeBSD-openssl-16.snap20261113025131 OpenSSL Transport Layer Security (TLS) library
-FreeBSD-openssl-dev-16.snap20261113025131 OpenSSL Transport Layer Security (TLS) library (development files)
-FreeBSD-openssl-lib-16.snap20261113025131 OpenSSL Transport Layer Security (TLS) library (libraries)
-FreeBSD-pam-16.snap20261118082413 Modular user authentication facility
-FreeBSD-pam-dev-16.snap20261118073358 Modular user authentication facility (development files)
-FreeBSD-pam-lib-16.snap20261113025131 Modular user authentication facility (libraries)
+FreeBSD-openssl-16.snap20261123233857 OpenSSL Transport Layer Security (TLS) library
+FreeBSD-openssl-dev-16.snap20261123233857 OpenSSL Transport Layer Security (TLS) library (development files)
+FreeBSD-openssl-lib-16.snap20261120170842 OpenSSL Transport Layer Security (TLS) library (libraries)
+FreeBSD-pam-16.snap20261120170842 Modular user authentication facility
+FreeBSD-pam-dev-16.snap20261120170842 Modular user authentication facility (development files)
+FreeBSD-pam-lib-16.snap20261120170842 Modular user authentication facility (libraries)
 FreeBSD-periodic-16.snap20261113002531 Run periodic system functions
-FreeBSD-pf-16.snap20261113025131 OpenBSD packet filter
+FreeBSD-pf-16.snap20261120170842 OpenBSD packet filter
 FreeBSD-pf-dev-16.snap20261030122638 OpenBSD packet filter (development files)
-FreeBSD-pkg-bootstrap-16.snap20261113133539 pkg(7) bootstrap utility
+FreeBSD-pkg-bootstrap-16.snap20261120170842 pkg(7) bootstrap utility
 FreeBSD-pkgconf-16.snap20261113025131 Package compiler and linker metadata toolkit
-FreeBSD-pmc-16.snap20261117141932 Support for hardware performance counters
-FreeBSD-pmc-dev-16.snap20261117141932 Support for hardware performance counters (development files)
+FreeBSD-pmc-16.snap20261123141803 Support for hardware performance counters
+FreeBSD-pmc-dev-16.snap20261123141803 Support for hardware performance counters (development files)
 FreeBSD-powerd-16.snap20261114005723 System power control utility
-FreeBSD-ppp-16.snap20261114005723 Point-to-Point Protocol (PPP) utilities
+FreeBSD-ppp-16.snap20261120170842 Point-to-Point Protocol (PPP) utilities
 FreeBSD-quotacheck-16.snap20261114145455 Filesystem quota consistency checker
 FreeBSD-rc-16.snap20261118192733 rc(8) subsystem
-FreeBSD-rcmds-16.snap20261113025131 BSD/SunOS remote status commands
+FreeBSD-rcmds-16.snap20261120170842 BSD/SunOS remote status commands
 FreeBSD-rdma-16.snap20261113025131 Remote Direct Memory Access (RDMA) and InfiniBand utilities
-FreeBSD-rdma-dev-16.snap20261116114715 Remote Direct Memory Access (RDMA) and InfiniBand utilities (development files)
-FreeBSD-rdma-lib-16.snap20261116114715 Remote Direct Memory Access (RDMA) and InfiniBand utilities (libraries)
-FreeBSD-rescue-16.snap20261116193756 Rescue system
+FreeBSD-rdma-dev-16.snap20261119181916 Remote Direct Memory Access (RDMA) and InfiniBand utilities (development files)
+FreeBSD-rdma-lib-16.snap20261119181916 Remote Direct Memory Access (RDMA) and InfiniBand utilities (libraries)
+FreeBSD-rescue-16.snap20261123144547 Rescue system
 FreeBSD-resolvconf-16.snap20260720180802 A framework for managing multiple DNS configurations
 FreeBSD-rip-16.snap20261113025131 RIP routing protocol
-FreeBSD-runtime-16.snap20261118000146 Core system
-FreeBSD-runtime-dev-16.snap20261116114715 Core system (development files)
-FreeBSD-sendmail-16.snap20261113025131 sendmail mail transport agent
+FreeBSD-runtime-16.snap20261123030339 Core system
+FreeBSD-runtime-dev-16.snap20261123030339 Core system (development files)
+FreeBSD-sendmail-16.snap20261123030339 sendmail mail transport agent
 FreeBSD-set-base-16.snap20251008042735 Base system (metapackage)
 FreeBSD-set-devel-16.snap20260424143247 Development tools (metapackage)
 FreeBSD-set-minimal-16.snap20260327154752 Basic multi-user system (metapackage)
 FreeBSD-set-optional-16.snap20260511222513 Optional base system software (metapackage)
 FreeBSD-smart-16.snap20261113002531 SMART monitoring
 FreeBSD-smart-dbg-16.snap20261113002531 SMART monitoring (debugging symbols)
-FreeBSD-smbutils-16.snap20261114005723 SMB network filesystem utilities
+FreeBSD-smbutils-16.snap20261123030339 SMB network filesystem utilities
 FreeBSD-smbutils-dev-16.snap20261113025131 SMB network filesystem utilities (development files)
 FreeBSD-sound-16.snap20261117160953 Audio utilities
 FreeBSD-sound-dev-16.snap20261117160953 Audio utilities (development files)
-FreeBSD-ssh-16.snap20261116114715 OpenSSH Secure Shell client and server
-FreeBSD-ssh-dev-16.snap20261116114715 OpenSSH Secure Shell client and server (development files)
+FreeBSD-ssh-16.snap20261120170842 OpenSSH Secure Shell client and server
+FreeBSD-ssh-dev-16.snap20261120170842 OpenSSH Secure Shell client and server (development files)
 FreeBSD-syscons-data-16.snap20260720180802 syscons(4) fonts and keymaps
 FreeBSD-syslogd-16.snap20261113025131 System logging daemon
 FreeBSD-tcpd-16.snap20261113025131 TCP Wrappers access control facility
 FreeBSD-tcpd-dev-16.snap20261113025131 TCP Wrappers access control facility (development files)
 FreeBSD-telnet-16.snap20261116175944 TELNET client
-FreeBSD-toolchain-16.snap20261116114715 Utilities for program development
+FreeBSD-toolchain-16.snap20261120170842 Utilities for program development
 FreeBSD-toolchain-dev-16.snap20261015171223 Utilities for program development (development files)
-FreeBSD-ufs-16.snap20261113025131 UFS filesystem support
-FreeBSD-ufs-dev-16.snap20261113025131 UFS filesystem support (development files)
-FreeBSD-ufs-lib-16.snap20261113025131 UFS filesystem support (libraries)
-FreeBSD-utilities-16.snap20261119111134 Non-vital programs and libraries
-FreeBSD-utilities-dev-16.snap20261117170933 Non-vital programs and libraries (development files)
-FreeBSD-vi-16.snap20261113025131 Text editor
+FreeBSD-ufs-16.snap20261123030339 UFS filesystem support
+FreeBSD-ufs-dev-16.snap20261123030339 UFS filesystem support (development files)
+FreeBSD-ufs-lib-16.snap20261123030339 UFS filesystem support (libraries)
+FreeBSD-utilities-16.snap20261124061731 Non-vital programs and libraries
+FreeBSD-utilities-dev-16.snap20261123191455 Non-vital programs and libraries (development files)
+FreeBSD-vi-16.snap20261120170842 Text editor
 FreeBSD-vt-data-16.snap20260720180802 vt(4) fonts and keymaps
 FreeBSD-wpa-16.snap20261113025131 IEEE Std 802.11 WPA Supplicant
-FreeBSD-xz-16.snap20261113025131 LZMA2 data compression
-FreeBSD-xz-dev-16.snap20261113025131 LZMA2 data compression (development files)
-FreeBSD-xz-lib-16.snap20261113025131 LZMA2 data compression (libraries)
-FreeBSD-yp-16.snap20261114145455 Yellow Pages (YP) / Network Information Service (NIS)
-FreeBSD-yp-dev-16.snap20261113025131 Yellow Pages (YP) / Network Information Service (NIS) (development files)
-FreeBSD-yp-lib-16.snap20261113025131 Yellow Pages (YP) / Network Information Service (NIS) (libraries)
-FreeBSD-zfs-16.snap20261116114715 ZFS filesystem support
-FreeBSD-zfs-dev-16.snap20261114005723 ZFS filesystem support (development files)
-FreeBSD-zfs-lib-16.snap20261114005723 ZFS filesystem support (libraries)
+FreeBSD-xz-16.snap20261119181916 LZMA2 data compression
+FreeBSD-xz-dev-16.snap20261119181916 LZMA2 data compression (development files)
+FreeBSD-xz-lib-16.snap20261119181916 LZMA2 data compression (libraries)
+FreeBSD-yp-16.snap20261120170842 Yellow Pages (YP) / Network Information Service (NIS)
+FreeBSD-yp-dev-16.snap20261120170842 Yellow Pages (YP) / Network Information Service (NIS) (development files)
+FreeBSD-yp-lib-16.snap20261120170842 Yellow Pages (YP) / Network Information Service (NIS) (libraries)
+FreeBSD-zfs-16.snap20261123144547 ZFS filesystem support
+FreeBSD-zfs-dev-16.snap20261123144547 ZFS filesystem support (development files)
+FreeBSD-zfs-lib-16.snap20261123144547 ZFS filesystem support (libraries)
 FreeBSD-zlib-16.snap20261113025131 DEFLATE (gzip) data compression library
 FreeBSD-zlib-dev-16.snap20261113025131 DEFLATE (gzip) data compression library (development files)
 FreeBSD-zoneinfo-16.snap20261028145349 Timezone database
@@ -222,28 +222,28 @@ FreeBSD-zstd-16.snap20261113025131 Fast, lossless compression algorithm
 FreeBSD-zstd-dev-16.snap20261113002531 Fast, lossless compression algorithm (development files)
 FreeBSD-zstd-lib-16.snap20261113002531 Fast, lossless compression algorithm (libraries)
 Imath-3.2.3_1                  C++/Python lib of 2D/3D vector, matrix, math ops for computer graphics
-abseil-20250127.1_2            Abseil Common Libraries (C++)
+abseil-20250127.1_3            Abseil Common Libraries (C++)
 adwaita-icon-theme-47.0        GNOME Symbolic Icons
 adwaita-icon-theme-legacy-46.2 Full color icon theme for legacy applications
 alsa-lib-1.2.16.1              ALSA compatibility library
 alsa-plugins-1.2.12_2          ALSA compatibility library plugins
-aom-3.15.3                     AV1 reference encoder/decoder
+aom-3.15.3_1                   AV1 reference encoder/decoder
 at-spi2-core-2.60.4            Assistive Technology Service Provider Interface
 avahi-app-0.8_6                Service discovery on a local network
 bash-5.3.20                    GNU Project's Bourne Again SHell
 binutils-2.44_1,1              GNU binary tools
 boost-libs-1.92.0              Free portable C++ libraries (without Boost.Python)
-brotli-1.2.1,1                 Generic-purpose lossless compression algorithm
+brotli-1.2.1_1,1               Generic-purpose lossless compression algorithm
 cairo-1.18.6,3                 Vector graphics library with cross-device output support
-chromium-156.0.8078.79_1       Google web browser based on WebKit
+chromium-158.0.8127.36         Google web browser based on WebKit
 colord-1.4.8_2                 Manage color profiles to accurately color input/output devices
 consolekit2-2.0.0_2            Framework for defining and tracking users
 cpu-microcode-amd-20251202     AMD CPU microcode updates
 cpu-microcode-rc-1.0_2         RC script for CPU microcode updates
-cups-2.4.20                    Common UNIX Printing System
+cups-2.4.20_1                  Common UNIX Printing System
 curl-8.23.0                    Command line tool and library for transferring data with URLs
-dav1d-1.5.4_1                  Small and fast AV1 decoder
-dbus-1.16.4,1                  Message bus system for inter-application communication
+dav1d-1.5.5                    Small and fast AV1 decoder
+dbus-1.16.4_1,1                Message bus system for inter-application communication
 dbus-glib-0.116                GLib bindings for the D-BUS messaging system
 dconf-0.49.0                   Configuration database system for GNOME
 deno-2.9.8                     Secure JavaScript and TypeScript runtime
@@ -257,7 +257,7 @@ ebur128-0.1.11                 Library implementing the EBU R128 loudness standa
 espeak-ng-1.52.0_1             Software speech synthesizer
 expat-2.10.0                   XML 1.0 parser written in C
 fastfetch-2.71.0               Like neofetch, but much faster because written in C
-ffmpeg-9.0.2_3,1               Realtime audio/video encoder/converter and streaming server
+ffmpeg-9.0.2_4,1               Realtime audio/video encoder/converter and streaming server
 ffnvcodec-headers-13.0.19.0    FFmpeg version of Nvidia Codec SDK headers
 fftw3-3.3.11                   Fast C routines to compute the Discrete Fourier Transform
 fftw3-float-3.3.11             Fast Discrete Fourier Transform (Single Precision C Routines)
@@ -269,6 +269,7 @@ fribidi-1.0.18                 Free Implementation of the Unicode Bidirectional 
 gcc14-14.2.0_7                 GNU Compiler Collection 14
 gdbm-1.26                      GNU database manager
 gdk-pixbuf2-2.44.1             Graphic library for GTK
+geany-2.1                      Fast and lightweight GTK IDE
 gettext-runtime-1.0_1          GNU gettext runtime libraries and programs
 gh-2.103.3_1                   GitHub's official command line tool
 giflib-6.1.3                   Tools and library routines for working with GIF images
@@ -276,15 +277,19 @@ git-2.56.1                     Distributed source code management tool
 glib-2.88.3,2                  Some useful routines of C programming (current stable version)
 gmp-6.3.0                      Free library for arbitrary precision arithmetic
 gnome_subr-1.0                 Common startup and shutdown subroutines used by GNOME scripts
-gnutls-3.8.13                  GNU Transport Layer Security library
+gnutls-3.8.14                  GNU Transport Layer Security library
 gobject-introspection-1.86.0,1 Generate interface introspection data for GObject libraries
 gpu-firmware-amd-kmod-polaris10-20260519.1600031 Firmware modules for polaris10 AMD GPUs
+graphene-1.10.8_1              Optimizations for speeding up vector operations
 graphite2-1.3.15_1             Rendering capabilities for complex non-Roman writing systems
 gsettings-desktop-schemas-47.1_2 Collection of globally shared GSetting schemas
 gstreamer1-1.28.9              Media applications framework
 gstreamer1-plugins-1.28.9      GStreamer written collection of plugins handling several media types
+gstreamer1-plugins-bad-1.28.9  GStreamer-plugins that need more quality, testing or documentation
+gstreamer1-plugins-gl-1.28.9   GStreamer GL graphics plugin
 gtk-update-icon-cache-3.24.42  Gtk-update-icon-cache utility from the Gtk+ toolkit
 gtk3-3.24.52                   Graphical UI toolkit (GTK3 library)
+gtk4-4.22.5                    Gimp Toolkit for X11 GUI (current stable version)
 harfbuzz-15.0.0                OpenType text shaping engine
 harfbuzz-icu-15.0.0            Harfbuzz ICU support
 hicolor-icon-theme-0.18        High-color icon theme shell from the FreeDesktop project
@@ -292,7 +297,7 @@ highway-1.4.0                  Performance-portable, length-agnostic SIMD with r
 hsetroot-1.0.5_3               Wallpaper manipulation utility for X11
 hwdata-0.413,1                 Database of IDs used in PCI, PNP and USB devices
 icu-76.1,1                     International Components for Unicode (from IBM)
-imlib2-1.12.7,2                Next generation graphics library for Enlightenment
+imlib2-1.13.0,2                Next generation graphics library for Enlightenment
 indexinfo-0.3.1_1              Utility to regenerate the GNU info page index
 iso-codes-4.20.1               Lists of ISO standards, e.g. country, language, language scripts and currency names
 jackit-1.9.22_3                Low latency audio server
@@ -314,7 +319,7 @@ libXdamage-1.1.7               X Damage extension library
 libXdmcp-1.1.5                 X Display Manager Control Protocol library
 libXext-1.3.7,1                Xlib-based library for common extensions to the X11 protocol
 libXfixes-6.0.2                X Fixes extension library
-libXfont2-2.0.9                X font handling library for server & utilities
+libXfont2-2.0.10               X font handling library for server & utilities
 libXft-2.3.9                   Client-sided font API for X applications
 libXi-1.8.4,1                  X Input extension library
 libXinerama-1.1.6,1            X11 Xinerama extension library
@@ -345,19 +350,19 @@ libevdev-1.13.2                Linux Event Device library
 libevent-2.1.13                API for executing callback functions on events or timeouts
 libexif-0.6.26                 Library to read digital camera file meta-data
 libffi-3.8.0                   Foreign Function Interface
-libfontenc-1.1.9               The fontenc Library
+libfontenc-1.1.10              The fontenc Library
 libgcrypt-1.12.4               General purpose cryptographic library based on the code from GnuPG
 libglvnd-1.7.0                 GL Vendor-Neutral Dispatch library
 libgpg-error-1.61              Common error values for all GnuPG components
 libgudev-237                   GObject bindings for libudev
 libgusb-0.4.9_1                GUsb is a GObject wrapper for libusb1
-libheif-1.23.6_1               ISO/IEC 23008-12:2017 HEIF file format de- and encoder
+libheif-1.23.7                 ISO/IEC 23008-12:2017 HEIF file format de- and encoder
 libiconv-1.18_1                Character set conversion library
 libid3tag-0.16.4               ID3 tag manipulation library
 libidn2-2.3.8                  Implementation of IDNA2008 internationalized domain names
 libinotify-20240724_3          Kevent based inotify compatible library
 libinput-1.31.1_1              Generic input library
-libjxl-0.12.0_1                JPEG XL reference encoder/decoder
+libjxl-0.13.0                  JPEG XL reference encoder/decoder
 libltdl-2.6.2                  System independent dlopen wrapper
 liblz4-1.11.1,1                LZ4 compression library, lossless and very fast
 libmtdev-1.1.7                 Multitouch Protocol Translation Library
@@ -428,8 +433,8 @@ noto-sans-mono-2.014_1         Google Noto Sans Mono
 noto-sans-symbols-2.008_1      Google Noto Sans Symbols
 noto-sans-symbols2-2.008       Google Noto Sans Symbols 2
 noto-serif-2.015               Google Noto Serif
-nspr-4.39                      Platform-neutral API for system level and libc like functions
-nss-3.133                      Libraries to support development of security-enabled applications
+nspr-4.41                      Platform-neutral API for system level and libc like functions
+nss-3.134                      Libraries to support development of security-enabled applications
 openblas-0.3.34_1,2            Optimized BLAS library based on GotoBLAS2
 openexr-3.4.18_1               High dynamic-range (HDR) image file format
 openh264-2.6.0_1,2             Cisco implementation of H.264 codec
@@ -450,12 +455,12 @@ p5-Net-SSLeay-1.94             Perl5 interface to SSL
 p5-URI-5.34                    Perl5 interface to Uniform Resource Identifier (URI) references
 pango-1.58.2                   Open-source framework for the layout and rendering of i18n text
 pcaudiolib-1.3                 Portable C audio library
-pciids-20261113                Database of all known IDs used in PCI devices
+pciids-20261115                Database of all known IDs used in PCI devices
 pcre2-10.49                    Perl Compatible Regular Expressions library, version 2
 perl5-5.42.3                   Practical Extraction and Report Language
 pipewire-1.6.9                 Server and user space API to deal with multimedia pipelines
 pixman-0.46.4                  Low-level pixel manipulation library
-pkg-2.9.2                      Package manager
+pkg-2.9.3                      Package manager
 pkgconf-3.0.9,1                Utility to help to configure compiler and linker flags
 png-1.6.59_1                   Library for manipulating PNG images
 polkit-128                     Framework for controlling access to system-wide components
@@ -485,9 +490,9 @@ py312-websockets-17.4          Implementation of the WebSocket Protocol (RFC 645
 py312-yt-dlp-ejs-0.8.0         JavaScript challenge solver for yt-dlp
 pygobject-common-3.58.0        Common files for Python bindings for GObject Introspection
 python312-3.12.16              Interpreted object-oriented programming language
+ratpoison-1.4.9_4              Simple window manager with no fat library dependencies
 re2-20251105                   Fast C++ regex library
 readline-8.3.6                 Library for editing command lines as they are typed
-scrot-2.0.0                    SCReenshOT - command line screen capture utility
 sdl2-2.32.10_2                 Cross-platform multimedia development API
 setxkbmap-1.3.5                Set the keyboard using the X Keyboard Extension
 shaderc-2026.4_1               GLSL/HLSL to SPIR-V shader compiler
@@ -500,6 +505,7 @@ spirv-llvm-translator-llvm19-19.1.24 Bi-directional translation between SPIR-V a
 spirv-tools-2026.4             Tools for processing SPIR-V intermediate shader language modules
 sqlite3-3.54.1,1               SQL database engine in a C library
 srt-1.5.7_1                    Secure Reliable Transport (SRT) Protocol
+sterm-0.9.3                    Simple X terminal
 svt-av1-4.3.0                  Scalable AV1 encoder
 tiff-4.7.2                     Tools and library routines for working with TIFF images
 tree-sitter-0.27.2             Incremental parser generator
@@ -507,11 +513,14 @@ uchardet-0.0.8_1               Universal charset detection library
 unibilium-2.1.4                Terminfo parsing library
 utf8proc-2.12.0                UTF-8 processing library
 vmaf-3.2.1                     Perceptual video quality assessment based on multi-method fusion
+vte3-0.80.5                    Terminal widget with improved accessibility and I18N support
+vulkan-headers-1.4.368         Headers for the Vulkan graphics API
 vulkan-loader-1.4.368          Driver loader for the Vulkan graphics API
 wayland-1.26.0                 Core Wayland window system code and protocol
 wayland-protocols-1.49         Wayland protocols
 webp-1.6.0                     Google WebP image format conversion tool
 webrtc-audio-processing-1.3_1  AudioProcessing module from WebRTC project
+wl-clipboard-2.3.0             Command-line copy/paste utilities for Wayland
 x265-4.3                       H.265/High Efficiency Video Coding (HEVC) format
 xauth-1.1.5                    X authority file utility
 xbitmaps-1.1.4                 X.Org bitmaps data
@@ -530,7 +539,7 @@ xrdb-1.2.3                     X server resource database utility
 xset-1.2.6                     User preference utility for X
 xsetroot-1.1.4                 Root window parameter setting utility for X
 xxhash-0.8.4                   Extremely fast non-cryptographic hash algorithm
-yt-dlp-2026.10.21              Command-line program for downloading videos from various platforms
+yt-dlp-2026.10.26              Command-line program for downloading videos from various platforms
 yyjson-0.13.0                  Fastest JSON library in C
 zip-3.0_6                      Create/update ZIP files compatible with PKZIP
 zstd-1.5.7_2                   Fast real-time compression algorithm
