@@ -23,9 +23,24 @@ hsetroot -fill ~/Pictures/1-city-view.webp -blur .5
 #xsetroot -solid "$(xrdb -query | awk '/\*.color8/ {print $2}')"
 #bud /home/chef/Pictures/Wallpapers/11855.jpg
 
+weather="**"
+count=0
+
 while true; do
-	xsetroot -name " $(uname) - $(date +"%a %b %d,") $(date +"%I:%M")"
-	sleep 60
+    # Fetch weather on startup (count == 0) and every 60 minutes
+    if [ "$count" -eq 0 ]; then
+        new_weather=$(curl -s --max-time 5 "wttr.in/Pontiac?format=%t+%C")
+        # Only update if curl succeeded and didn't return an HTML error page
+        case "$new_weather" in
+            ""|*html*|*Unknown*) ;;
+            *) weather=" | $new_weather" ;;
+        esac
+    fi
+
+    xsetroot -name " $(uname)-$(uname -r)${weather}| $(date +"%a %b %d, %I:%M")"
+
+    count=$(( (count + 1) % 60 ))
+    sleep 60
 done &
 
 dwm_start.sh
