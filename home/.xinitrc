@@ -29,7 +29,7 @@ count=0
 while true; do
     # Fetch weather on startup (count == 0) and every 60 minutes
     if [ "$count" -eq 0 ]; then
-        new_weather=$(curl -s --max-time 5 "wttr.in/Pontiac?format=%t+%C")
+        new_weather=$(curl -s --max-time 5 "wttr.in/?format=%t+%C")
         # Only update if curl succeeded and didn't return an HTML error page
         case "$new_weather" in
             ""|*html*|*Unknown*) ;;
