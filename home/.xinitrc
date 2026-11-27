@@ -15,7 +15,7 @@ xset s 1860
 #xset fp rehash
 
 xrdb < ~/.Xdefaults
-#xsidle.sh lock &
+xsidle.sh lock &
 
 xsetroot -cursor_name left_ptr
 hsetroot -fill ~/Pictures/1-city-view.webp -blur .5
